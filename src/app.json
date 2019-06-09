@@ -1,0 +1,18 @@
+{
+  "pages": ["pages/main/components/index"],
+  "subPackages": [
+    {
+      "root": "pages/components/",
+      "pages": ["listLoader/index"]
+    }
+  ],
+  "usingComponents": {
+    "tmg-list-loader": "components/listLoader/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "tmg组件",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

@@ -1,0 +1,5 @@
+<tmg-list-loader id="tmgListLoader" bind:render="renderList">
+  <view wx:for="{{list}}" wx:key="{{item}}">
+    {{item}}
+  </view>
+</tmg-list-loader>
