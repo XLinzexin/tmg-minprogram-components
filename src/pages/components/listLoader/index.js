@@ -5,9 +5,10 @@ Page({
 	},
 	onLoad() {
 		this.selectComponent('#tmgListLoader').setRequestConfig({
-			url: 'list',
-			pageNumber: 10,
-			pageSize: 8,
+			url: '/list',
+			params: {
+				pageCount: 18,
+			},
 		});
 	},
 	// 渲染列表

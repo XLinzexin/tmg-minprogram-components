@@ -3,12 +3,12 @@
   <slot name="list" wx:if="{{!isEmpty}}"></slot>
   <view
     wx:if="{{!allLoaded}}"
-    class="loading {{pageNumber===0&&!nomarl?'start':''}}"
+    class="loading {{constParams[pageNumber]===0&&!nomarl?'start':''}}"
   >
     <view class="loading-box" hidden="{{loadError}}">
       <view
         class="loading-animate"
-        style="{{pageNumber!==0?'transform:translateZ(0) scale(.8)':''}}"
+        style="{{constParams[pageNumber]!==0?'transform:translateZ(0) scale(.8)':''}}"
       >
         <view class="loading-rotate">
           <view class="icon-loading1 iconfont"></view>
