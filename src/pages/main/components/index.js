@@ -1,4 +1,3 @@
-const { ajax } = getApp();
 Page({
 	data: {
 		list: [
@@ -12,7 +11,7 @@ Page({
 	},
 	onShareAppMessage() {
 		return {
-			title: '小程序官方组件展示',
+			title: 'TMG小程序组件展示',
 			path: 'page/component/index',
 		};
 	},
